@@ -1,0 +1,200 @@
+		*{
+				padding: 0;
+				margin: 0;
+			}
+			html,body{
+			    height: 100%;
+			}
+			body{
+				background-color: #cde;
+				display: flex;
+				display: -webkit-flex;
+				flex-direction:column;
+				font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+			    font-weight: 400;
+			    -webkit-font-smoothing: antialiased;
+			    -webkit-tap-highlight-color: transparent;
+			}
+			.header{
+				font-size: 20px;
+				margin-top: 10px;
+				margin-left: 10px;
+			}
+			.content{
+				padding: 10px;
+				box-sizing: content-box;
+			}
+			.xx{
+				background-color: #fff;
+				border-radius: 5px;
+				float: left;
+				box-shadow: ;
+				padding: 10px;
+				margin: 5px;
+				box-sizing: content-box;
+				height: 40px;
+    			width: 100px;
+			}
+			.text{
+				text-align: center;
+				color: crimson;
+			}
+			
+			.contorl{
+				text-align: center;
+				margin-top:10px ;
+				padding: 10px;
+				font-size: 14px;
+				background-color: #ddd;
+				clear: both;
+			}
+
+			.q{
+				padding: 20px;
+				flex: auto;
+			}
+			.item{
+				float: left;
+				padding: 10px;
+				background-color: bisque;
+				margin: 10px;
+			}
+			.item input{
+				font-size: 12px;
+				 height: 30px;
+				padding: 0 10px;
+				line-height: 30px;
+			}
+			.item button{
+				background-color: #606266;
+				font-size: 12px;
+				padding: 8px 10px;
+			}
+			
+.el-radio {
+    color: #606266;
+    font-weight: 500;
+    line-height: 1;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    outline: none;
+    font-size: 14px;
+    margin-right: 30px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+}
+.el-radio__input.is-checked .el-radio__inner {
+    border-color: #409eff;
+    background: #409eff;
+}
+
+.el-radio__input.is-checked .el-radio__inner:after {
+    transform: translate(-50%,-50%) scale(1);
+}
+.el-radio__inner {
+    border: 1px solid #dcdfe6;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.el-radio__inner:hover{
+	border-color: #409EFF;
+}
+.el-radio__inner:after {
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform .15s ease-in;
+}
+.el-radio__original {
+    opacity: 0;
+    outline: none;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.el-radio__input {
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    vertical-align: middle;
+}
+
+
+.el-radio__label {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.el-button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.el-button+.el-button {
+    margin-left: 10px;
+}
+.el-button--primary {
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+.el-input__inner {
+	height: 100%;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    padding: 0 15px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+}
+
